@@ -1,0 +1,25 @@
+{
+	"name": "prk/alipay-php",
+	"description": "AliPay SDK for PHP",
+	"type": "library",
+	"keywords": [
+		"alipay"
+	],
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"php": ">=7.4"
+	},
+	"authors": [
+		{
+			"name": "Prk",
+			"email": "prk@prk123.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Alipay\\": "src/"
+		}
+	}
+}
